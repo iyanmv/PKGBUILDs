@@ -1,0 +1,11 @@
+pkgbase = spectre-meltdown-checker
+	pkgdesc = Spectre, Meltdown, Foreshadow, Fallout, RIDL, ZombieLoad vulnerability/mitigation checker
+	pkgver = 0.45
+	pkgrel = 1
+	url = https://github.com/speed47/spectre-meltdown-checker
+	arch = any
+	license = GPL3
+	source = spectre-meltdown-checker-0.45.tar.gz::https://github.com/speed47/spectre-meltdown-checker/archive/v0.45.tar.gz
+	sha256sums = 32db6b73b9a3b08c165cac39446c856a07ac3d17c6b556ce08a9e99dd5600ea7
+
+pkgname = spectre-meltdown-checker
