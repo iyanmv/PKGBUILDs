@@ -1,0 +1,24 @@
+pkgbase = mssql-cli
+	pkgdesc = Interactive command line query tool for SQL Server
+	pkgver = 1.0
+	pkgrel = 2
+	url = https://github.com/dbcli/mssql-cli
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	depends = python
+	depends = python-applicationinsights
+	depends = python-argparse
+	depends = python-click
+	depends = python-cli_helpers
+	depends = python-configobj
+	depends = python-future
+	depends = python-humanize
+	depends = python-polib
+	depends = python-prompt_toolkit
+	depends = python-pygments
+	depends = python-sqlparse
+	source = https://github.com/dbcli/mssql-cli/archive/refs/tags/1.0.tar.gz
+	sha256sums = 331f2cedc3c2f5ed0e3bd8c1ec41eec4d5f07a3ece0c2a08d6b1f0e811c44f9f
+
+pkgname = mssql-cli
