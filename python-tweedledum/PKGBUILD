@@ -2,7 +2,7 @@
 _pkgname=tweedledum
 pkgname=python-${_pkgname}
 pkgver=1.1.1
-pkgrel=2
+pkgrel=3
 pkgdesc="A library for synthesizing and manipulating quantum circuits"
 arch=('x86_64')
 url="https://github.com/boschmitt/tweedledum"
@@ -17,7 +17,7 @@ makedepends=(
 )
 source=(
     "${_pkgname}-${pkgver}.tar.gz::https://files.pythonhosted.org/packages/source/${_pkgname::1}/$_pkgname/$_pkgname-$pkgver.tar.gz"
-    "fix-build.patch::https://github.com/boschmitt/tweedledum/pull/170.patch"
+    "fix-build.patch" # https://github.com/boschmitt/tweedledum/pull/170.patch
 )
 b2sums=(
     '99da09829a70a316fdc582929bfe8ca5d805f0a7a6f049da3951c57c5e4bec24343a1021020e8d00791683ab5c140647d78ee0dde5dac95370b648e0eee44b04'
