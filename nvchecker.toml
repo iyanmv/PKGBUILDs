@@ -65,10 +65,9 @@ source = "github"
 github = "dbcli/mssql-cli"
 use_latest_release = true
 
-#TODO
 [nist-sts]
-source = "manual"
-manual = "2.1.2"
+source = "cmd"
+cmd = "curl -s https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software | grep 'Download</a>' | cut -d '.' -f 1 | cut -d '-' -f 4 | sed 's/_/./g'"
 
 [python-constraint]
 source = "github"
