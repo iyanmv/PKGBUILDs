@@ -1,0 +1,210 @@
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+[bacula-client]
+source = "cmd"
+cmd = 'curl -I https://sourceforge.net/projects/bacula/files/latest/download | grep location | cut -d "/" -f 7'
+
+[dieharder]
+source = "github"
+github = "christopherkobayashi/dieharder"
+use_latest_release = true
+
+[entropy-assessment]
+source = "github"
+github = "usnistgov/SP800-90B_EntropyAssessment"
+use_latest_release = true
+prefix = "v"
+
+[google-earth-pro]
+source = "cmd"
+cmd = '''curl -sL https://dl.google.com/linux/earth/deb/dists/stable/main/binary-amd64/Packages | grep -Pom1 'Version: \K[^-]*''''
+
+[huestacean]
+source = "github"
+github = "BradyBrenot/huestacean"
+use_latest_release = true
+prefix = "v"
+
+[jk2mv]
+source = "github"
+github = "mvdevs/jk2mv"
+use_latest_release = true
+
+[jupyter-metakernel]
+source = "github"
+github = "Calysto/metakernel"
+use_latest_release = true
+prefix = "v"
+
+[jupyter-octave_kernel]
+source = "github"
+github = "Calysto/octave_kernel"
+use_latest_release = true
+prefix = "v"
+
+[kaobook]
+source = "github"
+github = "fmarotta/kaobook"
+use_latest_release = true
+
+[kde-servicemenus-encfs]
+source = "regex"
+url = "https://www.egregorion.net/"
+regex = "KDE 5 Service Menu EncFS v([\\d]\\.[\\d])"
+
+[kdeplasma-applets-fokus]
+source = "gitlab"
+gitlab = "divinae/focus-plasmoid"
+use_max_tag = true
+prefix = "v"
+
+[mssql-cli]
+source = "github"
+github = "dbcli/mssql-cli"
+use_latest_release = true
+
+#TODO
+[nist-sts]
+source = "manual"
+manual = "2.1.2"
+
+[python-constraint]
+source = "github"
+github = "python-constraint/python-constraint"
+use_latest_release = true
+
+[python-dlx]
+source = "pypi"
+pypi = "dlx"
+
+[python-docplex]
+source = "pypi"
+pypi = "docplex"
+
+[python-dwdweather2]
+source = "github"
+github = "panodata/dwdweather2"
+use_latest_tag = true
+
+[python-galois]
+source = "pypi"
+pypi = "galois"
+
+[python-ibm-platform-services]
+source = "github"
+github = "IBM/platform-services-python-sdk"
+use_latest_release = true
+prefix = "v"
+
+[python-ipyvuetify]
+source = "github"
+github = "widgetti/ipyvuetify"
+use_latest_release = true
+prefix = "v"
+
+[python-marshmallow-polyfield]
+source = "github"
+github = "Bachmann1234/marshmallow-polyfield"
+use_latest_tag = true
+prefix = "v"
+
+[python-multitasking]
+source = "pypi"
+pypi = "multitasking"
+
+[python-projectq]
+source = "github"
+github = "ProjectQ-Framework/ProjectQ"
+use_latest_release = true
+prefix = "v"
+
+[python-pydes]
+source = "pypi"
+pypi = "pyDes"
+
+[python-qiskit]
+source = "github"
+github = "Qiskit/qiskit"
+use_latest_release = true
+
+[python-qiskit-aer]
+source = "github"
+github = "Qiskit/qiskit-aer"
+use_latest_release = true
+
+[python-qiskit-experiments]
+source = "github"
+github = "Qiskit/qiskit-experiments"
+use_latest_release = true
+
+[python-qiskit-finance]
+source = "github"
+github = "Qiskit/qiskit-finance"
+use_latest_release = true
+
+[python-qiskit-ibm-experiment]
+source = "github"
+github = "Qiskit/qiskit-ibm-experiment"
+use_latest_release = true
+
+[python-qiskit-ibm-runtime]
+source = "github"
+github = "Qiskit/qiskit-ibm-runtime"
+use_latest_release = true
+
+[python-qiskit-ibmq-provider]
+source = "github"
+github = "Qiskit/qiskit-ibmq-provider"
+use_latest_release = true
+
+[python-qiskit-ignis]
+source = "github"
+github = "Qiskit/qiskit-ignis"
+use_latest_release = true
+
+[python-qiskit-machine-learning]
+source = "github"
+github = "Qiskit/qiskit-machine-learning"
+use_latest_release = true
+
+[python-qiskit-nature]
+source = "github"
+github = "Qiskit/qiskit-nature"
+use_latest_release = true
+
+[python-qiskit-optimization]
+source = "github"
+github = "Qiskit/qiskit-optimization"
+use_latest_release = true
+
+[python-qiskit-terra]
+source = "github"
+github = "Qiskit/qiskit-terra"
+use_latest_release = true
+
+[python-tweedledum]
+source = "pypi"
+pypi = "tweedledum"
+
+[python-yfinance]
+source = "github"
+github = "ranaroussi/yfinance"
+use_latest_release = true
+
+[scute]
+source = "git"
+git = "https://dev.gnupg.org/source/scute.git"
+prefix = "scute-"
+
+[spectre-meltdown-checker]
+source = "github"
+github = "speed47/spectre-meltdown-checker"
+use_latest_release = true
+prefix = "v"
+
+[sts]
+source = "github"
+github = "arcetri/sts"
+use_latest_tag = true
