@@ -192,6 +192,12 @@ source = "github"
 github = "ranaroussi/yfinance"
 use_latest_release = true
 
+[rpi-imager]
+source = "github"
+github = "raspberrypi/rpi-imager"
+use_latest_release = true
+prefix = "v"
+
 [scute]
 source = "git"
 git = "https://dev.gnupg.org/source/scute.git"
