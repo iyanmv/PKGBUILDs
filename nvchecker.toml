@@ -203,6 +203,12 @@ source = "git"
 git = "https://dev.gnupg.org/source/scute.git"
 prefix = "scute-"
 
+[slackdump]
+source = "github"
+github = "rusq/slackdump"
+use_latest_release = true
+prefix = "v"
+
 [spectre-meltdown-checker]
 source = "github"
 github = "speed47/spectre-meltdown-checker"
