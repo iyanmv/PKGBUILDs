@@ -203,6 +203,11 @@ source = "git"
 git = "https://dev.gnupg.org/source/scute.git"
 prefix = "scute-"
 
+[slack-export-viewer]
+source = "github"
+github = "hfaran/slack-export-viewer"
+use_latest_release = true
+
 [slackdump]
 source = "github"
 github = "rusq/slackdump"
