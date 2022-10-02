@@ -220,6 +220,12 @@ github = "speed47/spectre-meltdown-checker"
 use_latest_release = true
 prefix = "v"
 
+[stress-ng]
+source = "github"
+github = "ColinIanKing/stress-ng"
+use_latest_tag = true
+prefix = "V"
+
 [sts]
 source = "github"
 github = "arcetri/sts"
