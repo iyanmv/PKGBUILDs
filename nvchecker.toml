@@ -27,6 +27,12 @@ github = "BradyBrenot/huestacean"
 use_latest_release = true
 prefix = "v"
 
+[intel-ipsec-mb]
+source = "github"
+github = "intel/intel-ipsec-mb"
+use_latest_release = true
+prefix = "v"
+
 [jk2mv]
 source = "github"
 github = "mvdevs/jk2mv"
