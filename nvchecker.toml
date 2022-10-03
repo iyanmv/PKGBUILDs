@@ -103,6 +103,12 @@ github = "IBM/platform-services-python-sdk"
 use_latest_release = true
 prefix = "v"
 
+[python-ipyvue]
+source = "github"
+github = "widgetti/ipyvue"
+use_latest_release = true
+prefix = "v"
+
 [python-ipyvuetify]
 source = "github"
 github = "widgetti/ipyvuetify"
