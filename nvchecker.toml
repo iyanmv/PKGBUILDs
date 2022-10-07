@@ -195,6 +195,11 @@ source = "github"
 github = "Qiskit/qiskit-terra"
 use_latest_release = true
 
+[python-rustworkx]
+source = "github"
+github = "Qiskit/rustworkx"
+use_latest_release = true
+
 [python-tweedledum]
 source = "pypi"
 pypi = "tweedledum"
