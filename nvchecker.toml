@@ -75,6 +75,12 @@ use_latest_release = true
 source = "cmd"
 cmd = "curl -s https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software | grep 'Download</a>' | cut -d '.' -f 1 | cut -d '-' -f 4 | sed 's/_/./g'"
 
+[python-comparxiv]
+source = "github"
+github = "temken/comparxiv"
+use_latest_release = true
+prefix = "v"
+
 [python-constraint]
 source = "github"
 github = "python-constraint/python-constraint"
