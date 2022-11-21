@@ -114,10 +114,8 @@ source = "pypi"
 pypi = "ipyvue"
 
 [python-ipyvuetify]
-source = "github"
-github = "widgetti/ipyvuetify"
-use_latest_release = true
-prefix = "v"
+source = "pypi"
+pypi = "ipyvuetify"
 
 [python-marshmallow-polyfield]
 source = "pypi"
