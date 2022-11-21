@@ -110,10 +110,8 @@ use_latest_release = true
 prefix = "v"
 
 [python-ipyvue]
-source = "github"
-github = "widgetti/ipyvue"
-use_latest_release = true
-prefix = "v"
+source = "pypi"
+pypi = "ipyvue"
 
 [python-ipyvuetify]
 source = "github"
