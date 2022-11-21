@@ -122,10 +122,8 @@ use_latest_release = true
 prefix = "v"
 
 [python-marshmallow-polyfield]
-source = "github"
-github = "Bachmann1234/marshmallow-polyfield"
-use_latest_tag = true
-prefix = "v"
+source = "pypi"
+pypi = "marshmallow-polyfield"
 
 [python-multitasking]
 source = "pypi"
