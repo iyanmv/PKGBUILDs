@@ -66,6 +66,11 @@ gitlab = "divinae/focus-plasmoid"
 use_max_tag = true
 prefix = "v"
 
+[liboqs]
+source = "github"
+github = "open-quantum-safe/liboqs"
+use_latest_release = true
+
 [mssql-cli]
 source = "github"
 github = "dbcli/mssql-cli"
@@ -74,6 +79,12 @@ use_latest_release = true
 [nist-sts]
 source = "cmd"
 cmd = "curl -s https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software | grep 'Download</a>' | cut -d '.' -f 1 | cut -d '-' -f 4 | sed 's/_/./g'"
+
+[oqsprovider]
+source = "github"
+github = "open-quantum-safe/oqs-provider"
+prefix = "v"
+use_latest_release = true
 
 [python-comparxiv]
 source = "github"
