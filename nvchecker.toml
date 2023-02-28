@@ -169,7 +169,7 @@ use_latest_release = true
 [python-qiskit-ibm-experiment]
 source = "github"
 github = "Qiskit/qiskit-ibm-experiment"
-use_latest_release = true
+use_max_tag = true
 
 [python-qiskit-ibm-runtime]
 source = "github"
