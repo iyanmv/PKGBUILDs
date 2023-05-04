@@ -120,14 +120,6 @@ github = "IBM/platform-services-python-sdk"
 use_latest_release = true
 prefix = "v"
 
-[python-ipyvue]
-source = "pypi"
-pypi = "ipyvue"
-
-[python-ipyvuetify]
-source = "pypi"
-pypi = "ipyvuetify"
-
 [python-marshmallow-polyfield]
 source = "pypi"
 pypi = "marshmallow-polyfield"
