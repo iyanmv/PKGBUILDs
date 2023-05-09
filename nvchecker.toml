@@ -71,6 +71,11 @@ source = "github"
 github = "open-quantum-safe/liboqs"
 use_latest_release = true
 
+[linux-enable-ir-emitter]
+source = "github"
+github = "EmixamPP/linux-enable-ir-emitter"
+use_latest_release = true
+
 [mssql-cli]
 source = "github"
 github = "dbcli/mssql-cli"
