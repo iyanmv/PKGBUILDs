@@ -1,0 +1,19 @@
+pkgbase = python-tweedledum
+	pkgdesc = A library for synthesizing and manipulating quantum circuits
+	pkgver = 1.1.1
+	pkgrel = 2
+	url = https://github.com/boschmitt/tweedledum
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = nlohmann-json
+	makedepends = python-scikit-build
+	makedepends = python-setuptools
+	depends = gcc-libs
+	source = tweedledum-1.1.1.tar.gz::https://files.pythonhosted.org/packages/source/t/tweedledum/tweedledum-1.1.1.tar.gz
+	source = fix-build.patch::https://github.com/boschmitt/tweedledum/pull/170.patch
+	b2sums = 99da09829a70a316fdc582929bfe8ca5d805f0a7a6f049da3951c57c5e4bec24343a1021020e8d00791683ab5c140647d78ee0dde5dac95370b648e0eee44b04
+	b2sums = 24cb2303a6d3fdac0967c6c925bb49113cc317aa03524b024e9131180bdcd7f6dd812d0e2ebfe157f0331e366b0284c972cc1b2b780960af38365c7d70fa078c
+
+pkgname = python-tweedledum
