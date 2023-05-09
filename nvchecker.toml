@@ -129,6 +129,10 @@ prefix = "v"
 source = "pypi"
 pypi = "marshmallow-polyfield"
 
+[python-multiset]
+source = "pypi"
+pypi = "multiset"
+
 [python-multitasking]
 source = "pypi"
 pypi = "multitasking"
@@ -151,6 +155,11 @@ use_latest_release = true
 [python-qiskit-aer]
 source = "github"
 github = "Qiskit/qiskit-aer"
+use_latest_release = true
+
+[python-qiskit-dynamics]
+source = "github"
+github = "Qiskit/qiskit-dynamics"
 use_latest_release = true
 
 [python-qiskit-experiments]
