@@ -76,11 +76,6 @@ source = "github"
 github = "EmixamPP/linux-enable-ir-emitter"
 use_latest_release = true
 
-[mssql-cli]
-source = "github"
-github = "dbcli/mssql-cli"
-use_latest_release = true
-
 [nist-sts]
 source = "cmd"
 cmd = "curl -s https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software | grep 'Download</a>' | cut -d '.' -f 1 | cut -d '-' -f 4 | sed 's/_/./g'"
