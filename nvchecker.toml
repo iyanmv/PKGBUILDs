@@ -4,7 +4,7 @@ newver = "new_ver.json"
 
 [bacula-client]
 source = "cmd"
-cmd = 'curl -I https://sourceforge.net/projects/bacula/files/latest/download | grep location | cut -d "/" -f 7'
+cmd = 'curl -I https://sourceforge.net/projects/bacula/files/latest/download | grep -m 1 location | cut -d "/" -f 7'
 
 [dieharder]
 source = "github"
