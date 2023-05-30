@@ -270,3 +270,10 @@ prefix = "V"
 source = "github"
 github = "arcetri/sts"
 use_latest_tag = true
+
+[wireshark-oqs]
+source = "gitlab"
+gitlab = "archlinux/packaging/packages/wireshark"
+host = "gitlab.archlinux.org"
+use_max_tag = true
+
