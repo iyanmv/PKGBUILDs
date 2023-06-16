@@ -183,6 +183,11 @@ source = "github"
 github = "Qiskit/qiskit-ibm-experiment"
 use_max_tag = true
 
+[python-qiskit-ibm-provider]
+source = "github"
+github = "Qiskit/qiskit-ibm-provider"
+use_latest_release = true
+
 [python-qiskit-ibm-runtime]
 source = "github"
 github = "Qiskit/qiskit-ibm-runtime"
