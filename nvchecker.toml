@@ -17,7 +17,7 @@ github = "usnistgov/SP800-90B_EntropyAssessment"
 use_latest_release = true
 prefix = "v"
 
-[golang-sqlcmd]
+[go-sqlcmd]
 source = "github"
 github = "microsoft/go-sqlcmd"
 use_latest_release = true
