@@ -282,3 +282,8 @@ gitlab = "archlinux/packaging/packages/wireshark"
 host = "gitlab.archlinux.org"
 use_max_tag = true
 
+[wolfssl-liboqs]
+source = "gitlab"
+gitlab = "archlinux/packaging/packages/wolfssl"
+host = "gitlab.archlinux.org"
+use_max_tag = true
