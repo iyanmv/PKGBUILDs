@@ -193,11 +193,6 @@ source = "github"
 github = "Qiskit/qiskit-ibm-runtime"
 use_latest_release = true
 
-[python-qiskit-ibmq-provider]
-source = "github"
-github = "Qiskit/qiskit-ibmq-provider"
-use_latest_release = true
-
 [python-qiskit-ignis]
 source = "github"
 github = "Qiskit/qiskit-ignis"
