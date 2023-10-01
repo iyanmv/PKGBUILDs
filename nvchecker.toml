@@ -111,6 +111,11 @@ source = "github"
 github = "panodata/dwdweather2"
 use_latest_tag = true
 
+[python-flippernested]
+source = "github"
+github = "AloneLiberty/FlipperNestedRecovery"
+use_latest_release = true
+
 [python-galois]
 source = "pypi"
 pypi = "galois"
