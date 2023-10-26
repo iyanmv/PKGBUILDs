@@ -56,16 +56,10 @@ source = "github"
 github = "fmarotta/kaobook"
 use_latest_release = true
 
-[kde-servicemenus-encfs]
+[kf5-servicemenus-encfs]
 source = "regex"
 url = "https://www.egregorion.net/"
 regex = "KDE 5 Service Menu EncFS v([\\d]\\.[\\d])"
-
-[kdeplasma-applets-fokus]
-source = "gitlab"
-gitlab = "divinae/focus-plasmoid"
-use_max_tag = true
-prefix = "v"
 
 [liboqs]
 source = "github"
@@ -86,6 +80,12 @@ source = "github"
 github = "open-quantum-safe/oqs-provider"
 prefix = "v"
 use_latest_release = true
+
+[plasma5-applets-fokus]
+source = "gitlab"
+gitlab = "divinae/focus-plasmoid"
+use_max_tag = true
+prefix = "v"
 
 [python-comparxiv]
 source = "github"
