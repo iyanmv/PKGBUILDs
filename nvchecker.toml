@@ -81,6 +81,10 @@ github = "open-quantum-safe/oqs-provider"
 prefix = "v"
 use_latest_release = true
 
+[pdf-compress]
+source = "cmd"
+cmd = "curl -s https://www.timedicer.co.uk/programs/help/pdf-compress.sh.php | awk '/<h2><a name=\"Changelog\">/,/<\\/p>/{gsub(/<[^>]*>/, \"\"); if (NF) print $0}' | grep Changelog -A 1 | tail -n 1 | cut -d ' ' -f 1"
+
 [plasma5-applets-fokus]
 source = "gitlab"
 gitlab = "divinae/focus-plasmoid"
