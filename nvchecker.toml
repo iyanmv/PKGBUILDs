@@ -115,6 +115,11 @@ source = "github"
 github = "panodata/dwdweather2"
 use_latest_tag = true
 
+[python-fastdtw]
+source = "github"
+github = "slaypni/fastdtw"
+use_latest_tag = true
+
 [python-flippernested]
 source = "github"
 github = "AloneLiberty/FlipperNestedRecovery"
