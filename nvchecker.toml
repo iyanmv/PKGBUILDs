@@ -167,24 +167,29 @@ source = "github"
 github = "Qiskit/qiskit-aer"
 use_latest_release = true
 
+[python-qiskit-algorithms]
+source = "github"
+github = "qiskit-community/qiskit-algorithms"
+use_latest_release = true
+
 [python-qiskit-dynamics]
 source = "github"
-github = "Qiskit/qiskit-dynamics"
+github = "Qiskit-Extensions/qiskit-dynamics"
 use_latest_release = true
 
 [python-qiskit-experiments]
 source = "github"
-github = "Qiskit/qiskit-experiments"
+github = "Qiskit-Extensions/qiskit-experiments"
 use_latest_release = true
 
 [python-qiskit-finance]
 source = "github"
-github = "Qiskit/qiskit-finance"
+github = "qiskit-community/qiskit-finance"
 use_latest_release = true
 
 [python-qiskit-ibm-experiment]
 source = "github"
-github = "Qiskit/qiskit-ibm-experiment"
+github = "Qiskit-Extensions/qiskit-ibm-experiment"
 use_max_tag = true
 
 [python-qiskit-ibm-provider]
@@ -204,17 +209,17 @@ use_latest_release = true
 
 [python-qiskit-machine-learning]
 source = "github"
-github = "Qiskit/qiskit-machine-learning"
+github = "qiskit-community/qiskit-machine-learning"
 use_latest_release = true
 
 [python-qiskit-nature]
 source = "github"
-github = "Qiskit/qiskit-nature"
+github = "qiskit-community/qiskit-nature"
 use_latest_release = true
 
 [python-qiskit-optimization]
 source = "github"
-github = "Qiskit/qiskit-optimization"
+github = "qiskit-community/qiskit-optimization"
 use_latest_release = true
 
 [python-rustworkx]
