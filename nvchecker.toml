@@ -153,6 +153,11 @@ pypi = "multiset"
 source = "pypi"
 pypi = "multitasking"
 
+[python-nasdaq-data-link]
+source = "github"
+github = "Nasdaq/data-link-python"
+use_latest_tag = true
+
 [python-projectq]
 source = "github"
 github = "ProjectQ-Framework/ProjectQ"
