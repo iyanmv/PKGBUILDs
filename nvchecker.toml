@@ -92,6 +92,12 @@ gitlab = "divinae/focus-plasmoid"
 use_max_tag = true
 prefix = "v"
 
+[plasma5-applets-netspeed]
+source = "github"
+github = "dfaust/plasma-applet-netspeed-widget"
+use_latest_tag = true
+prefix = "v"
+
 [python-comparxiv]
 source = "github"
 github = "temken/comparxiv"
