@@ -1,3 +1,4 @@
 keyfile.toml
 *.json*
+.directory
 
