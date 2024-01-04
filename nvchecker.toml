@@ -292,6 +292,12 @@ source = "github"
 github = "arcetri/sts"
 use_latest_tag = true
 
+[terrapin-scanner]
+source = "github"
+github = "RUB-NDS/Terrapin-Scanner"
+prefix = "v"
+use_latest_release = true
+
 [wireshark-oqs]
 source = "gitlab"
 gitlab = "archlinux/packaging/packages/wireshark"
