@@ -6,6 +6,12 @@ newver = "new_ver.json"
 source = "cmd"
 cmd = 'curl -I https://sourceforge.net/projects/bacula/files/latest/download | grep -m 1 location | cut -d "/" -f 7'
 
+[cmdstan]
+source = "github"
+github = "stan-dev/cmdstan"
+use_latest_release = true
+prefix = "v"
+
 [entropy-assessment]
 source = "github"
 github = "usnistgov/SP800-90B_EntropyAssessment"
@@ -243,6 +249,12 @@ use_latest_release = true
 source = "github"
 github = "Qiskit/rustworkx"
 use_latest_release = true
+
+[python-stanio]
+source = "github"
+github = "WardBrian/stanio"
+use_latest_release = true
+prefix = "v"
 
 [python-tweedledum]
 source = "pypi"
