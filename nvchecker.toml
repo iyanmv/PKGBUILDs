@@ -77,13 +77,6 @@ source = "github"
 github = "EmixamPP/linux-enable-ir-emitter"
 use_latest_release = true
 
-[marknote]
-source = "gitlab"
-host = "invent.kde.org"
-gitlab = "office/marknote"
-use_max_tag = true
-prefix = "v"
-
 [nist-sts]
 source = "cmd"
 cmd = "curl -s https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software | grep 'Download</a>' | cut -d '.' -f 1 | cut -d '-' -f 4 | sed 's/_/./g'"
