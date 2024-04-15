@@ -1,0 +1,16 @@
+pkgbase = xmss
+	pkgdesc = XMSS (eXtended Merkle Signature Scheme) reference code (RFC 8391)
+	pkgver = r136.171ccbd
+	pkgrel = 1
+	url = https://github.com/XMSS/xmss-reference
+	arch = x86_64
+	license = Unlicense
+	makedepends = git
+	makedepends = wolfssl-liboqs
+	depends = openssl
+	source = xmss-reference::git+https://github.com/XMSS/xmss-reference#commit=171ccbd26f098542a67eb5d2b128281c80bd71a6
+	source = xmss-wolfssl.patch::https://raw.githubusercontent.com/wolfSSL/wolfssl-examples/master/pq/stateful_hash_sig/0001-Patch-to-support-wolfSSL-xmss-reference-integration.patch
+	b2sums = 1f9c0cc684bcf2ad1a7ef3e43cf8239d09b3e39065ead002b8440c382a43f80d99379fb576bbbebc82859afce262591a5b022eb342bc00acec7bc2c8b406ef6b
+	b2sums = bc390e6226419be1a5919800fde00d6ed704a323549921f50971c0d0cfe8057007b06eebe0483a5e1fdc494fe9c284da7242cb82f43a9738b862273b1663fad6
+
+pkgname = xmss
