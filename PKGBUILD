@@ -2,7 +2,7 @@
 
 _name=quimb
 pkgname=python-$_name
-pkgver=1.7.3
+pkgver=1.8.0
 pkgrel=1
 pkgdesc='Quantum information and many-body library.'
 arch=(any)
@@ -11,7 +11,7 @@ license=(Apache)
 depends=(python)
 makedepends=(python-build python-installer python-setuptools python-setuptools-scm python-wheel)
 source=("https://files.pythonhosted.org/packages/source/${_name::1}/$_name/$_name-$pkgver.tar.gz")
-b2sums=('3338afa14c8999f745a575f7414ebf04d0cc676a9cbc2f981d8a827c4bc988b7123d071a95c49f43bcc1ec096a34661ab25efe98d20042b2a2986ebcb10eb998')
+b2sums=('ce6322793376d97c1c834403db8980930955cadedb4e56762050f72a296e32129015f539341b40b7169b3a25edef26db9ac9dfd2939804f4a7021c52821a3ccd')
 
 build() {
     cd $_name-$pkgver
