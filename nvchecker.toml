@@ -62,10 +62,11 @@ source = "github"
 github = "fmarotta/kaobook"
 use_latest_release = true
 
-[kf5-servicemenus-encfs]
-source = "regex"
-url = "https://www.egregorion.net/"
-regex = "KDE 5 Service Menu EncFS v([\\d]\\.[\\d])"
+[kwin-scripts-mudeer]
+source = "github"
+github = "darkstego/Mudeer"
+prefix = "v"
+use_latest_release = true
 
 [liboqs]
 source = "github"
@@ -102,6 +103,12 @@ prefix = "v"
 source = "github"
 github = "dfaust/plasma-applet-netspeed-widget"
 use_latest_tag = true
+prefix = "v"
+
+[plasma6-applets-resources-monitor]
+source = "github"
+github = "orblazer/plasma-applet-resources-monitor"
+use_latest_release = true
 prefix = "v"
 
 [python-arraylias]
@@ -142,6 +149,7 @@ use_latest_tag = true
 source = "github"
 github = "AloneLiberty/FlipperNestedRecovery"
 use_latest_release = true
+prefix = "v"
 
 [python-galois]
 source = "pypi"
@@ -230,11 +238,6 @@ source = "github"
 github = "Qiskit/qiskit-ibm-runtime"
 use_latest_release = true
 
-[python-qiskit-ignis]
-source = "github"
-github = "Qiskit/qiskit-ignis"
-use_latest_release = true
-
 [python-qiskit-machine-learning]
 source = "github"
 github = "qiskit-community/qiskit-machine-learning"
@@ -260,10 +263,6 @@ source = "github"
 github = "WardBrian/stanio"
 use_latest_release = true
 prefix = "v"
-
-[python-tweedledum]
-source = "pypi"
-pypi = "tweedledum"
 
 [python-yfinance]
 source = "github"
