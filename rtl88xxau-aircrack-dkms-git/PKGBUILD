@@ -1,7 +1,6 @@
 # Maintainer:  Iyán Méndez Veiga <me (at) iyanmv (dot) com>
 # Contributor: Shaun Ren <shaun DOT ren (at) linux (dOt) com>
 # Contributor: Simon Hanna <simon DOT hanna (at) serve-me (dOt) info>
-
 pkgname=rtl88xxau-aircrack-dkms-git
 _name=rtl88xxau
 pkgver=r1298.b44d288
@@ -19,12 +18,10 @@ conflicts=(
     rtl8814au-dkms-git
     rtl8812au-inject-dkms-git
 )
-
 source=(
     rtl88xxau::git+https://github.com/aircrack-ng/rtl8812au.git#branch=v5.6.4.2
     dkms.conf
 )
-
 sha256sums=(
     'SKIP'
     '1ac36b3713d6b719b8c5f820653bbe30ead8323165d52e6ad95d56da627fde88'
