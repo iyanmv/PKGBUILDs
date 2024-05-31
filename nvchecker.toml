@@ -103,6 +103,7 @@ prefix = "v"
 source = "github"
 github = "orblazer/plasma-applet-resources-monitor"
 use_latest_release = true
+include_prereleases = true
 prefix = "v"
 
 [python-arraylias]
