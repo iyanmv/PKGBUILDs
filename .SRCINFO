@@ -1,7 +1,7 @@
 pkgbase = python-futurist
 	pkgdesc = Code from the future, delivered to you in the now.
 	pkgver = 3.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://docs.openstack.org/futurist/
 	arch = any
 	license = Apache
@@ -17,7 +17,7 @@ pkgbase = python-futurist
 	depends = python-monotonic
 	depends = python-prettytable
 	depends = python-wheel
-	source = python-futurist-3.0.0.tar.gz::https://opendev.org/openstack/futurist/archive/3.0.0.tar.gz
-	sha512sums = b8781788fe329391788a0402fb24cf9c503d28496f2db2605effdce1cd1cbdb39b7f2f77c8312513b2da18ed4c008dad2eec37d1bdeb3658652f5fa6a1d59e84
+	source = https://tarballs.opendev.org/openstack/futurist/futurist-3.0.0.tar.gz
+	sha512sums = 7a9dbf88f11e22064c0ddc4bca94b12696696736cd36bcc7f06e5dfd4689e9e43293babc8d97094d69e1a4bab224ad3483453327090718802392ed679cb41191
 
 pkgname = python-futurist
