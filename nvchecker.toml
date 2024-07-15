@@ -3,8 +3,12 @@ oldver = "old_ver.json"
 newver = "new_ver.json"
 
 [bacula-client]
-source = "cmd"
-cmd = 'curl -I https://sourceforge.net/projects/bacula/files/latest/download | grep -m 1 location | cut -d "/" -f 7'
+source = "gitlab"
+gitlab = "bacula-community-edition/bacula-community"
+host = "gitlab.bacula.org"
+use_max_tag = true
+include_regex = "^Release-.*"
+prefix = "Release-"
 
 [entropy-assessment]
 source = "github"
