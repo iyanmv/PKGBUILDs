@@ -10,6 +10,12 @@ use_max_tag = true
 include_regex = "^Release-.*"
 prefix = "Release-"
 
+[drand]
+source = "github"
+github = "drand/drand"
+use_latest_release = true
+prefix = "v"
+
 [entropy-assessment]
 source = "github"
 github = "usnistgov/SP800-90B_EntropyAssessment"
