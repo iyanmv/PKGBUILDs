@@ -16,6 +16,12 @@ github = "drand/drand"
 use_latest_release = true
 prefix = "v"
 
+[drand-client]
+source = "github"
+github = "drand/go-clients"
+use_latest_tag = true
+prefix = "v"
+
 [entropy-assessment]
 source = "github"
 github = "usnistgov/SP800-90B_EntropyAssessment"
