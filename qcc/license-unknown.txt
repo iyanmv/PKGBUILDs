@@ -1,0 +1,3 @@
+As of 2024-12-02 it is unknown what the license of this project is.
+
+Assume full copyright to Crypta Labs: https://cryptalabs.com/
