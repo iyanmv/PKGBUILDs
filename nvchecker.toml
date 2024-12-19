@@ -275,6 +275,10 @@ source = "github"
 github = "ranaroussi/yfinance"
 use_latest_release = true
 
+[qcc]
+source = "cmd"
+cmd = "ver=$(curl -Lsqo - https://cryptalabs.com/support/releases/qcc/source/qcc-source.zip | bsdtar -xOf- qcc/qcc.h | grep -s QCC_VERSION | cut -d ' ' -f 3); echo $((16#${ver:2:5})).$((16#${ver:5}))"
+
 [scute]
 source = "git"
 git = "https://dev.gnupg.org/source/scute.git"
