@@ -124,7 +124,7 @@ prefix = "v"
 
 [python-arraylias]
 source = "github"
-github = "Qiskit-Extensions/arraylias"
+github = "qiskit-community/arraylias"
 use_latest_release = true
 
 [python-comparxiv]
@@ -221,12 +221,12 @@ use_latest_release = true
 
 [python-qiskit-dynamics]
 source = "github"
-github = "Qiskit-Extensions/qiskit-dynamics"
+github = "qiskit-community/qiskit-dynamics"
 use_latest_release = true
 
 [python-qiskit-experiments]
 source = "github"
-github = "Qiskit-Extensions/qiskit-experiments"
+github = "qiskit-community/qiskit-experiments"
 use_latest_release = true
 
 [python-qiskit-finance]
@@ -236,7 +236,7 @@ use_latest_release = true
 
 [python-qiskit-ibm-experiment]
 source = "github"
-github = "Qiskit-Extensions/qiskit-ibm-experiment"
+github = "qiskit-community/qiskit-ibm-experiment"
 use_max_tag = true
 
 [python-qiskit-ibm-runtime]
