@@ -204,6 +204,10 @@ prefix = "v"
 source = "pypi"
 pypi = "pyDes"
 
+[python-pyqcc]
+source = "cmd"
+cmd = "curl -s https://cryptalabs.com/support/docs/pyqcc/ | grep '<title>' | cut -d ' ' -f 7"
+
 [python-qiskit]
 source = "github"
 github = "Qiskit/qiskit"
