@@ -127,6 +127,11 @@ source = "github"
 github = "qiskit-community/arraylias"
 use_latest_release = true
 
+[python-asteval]
+source = "github"
+github = "lmfit/asteval"
+use_latest_release = true
+
 [python-comparxiv]
 source = "github"
 github = "temken/comparxiv"
