@@ -78,10 +78,30 @@ github = "darkstego/Mudeer"
 prefix = "v"
 use_latest_release = true
 
+[lenovo-wwan-unlock]
+source = "github"
+github = "lenovo/lenovo-wwan-unlock"
+prefix = "v"
+use_max_tag = true
+
+[libmbim-dev]
+source = "gitlab"
+gitlab = "mobile-broadband/libmbim"
+host = "gitlab.freedesktop.org"
+use_max_tag = true
+include_regex = ".*-dev"
+
 [liboqs]
 source = "github"
 github = "open-quantum-safe/liboqs"
 use_latest_release = true
+
+[libqmi-dev]
+source = "gitlab"
+gitlab = "mobile-broadband/libqmi"
+host = "gitlab.freedesktop.org"
+use_max_tag = true
+include_regex = ".*-dev"
 
 [linux-enable-ir-emitter]
 source = "github"
@@ -151,6 +171,12 @@ pypi = "dlx"
 source = "pypi"
 pypi = "docplex"
 
+[python-dspy]
+source = "github"
+github = "stanfordnlp/dspy"
+use_max_tag = true
+exclude_regex = ".*rc.*"
+
 [python-dwdweather2]
 source = "github"
 github = "panodata/dwdweather2"
@@ -177,10 +203,22 @@ github = "IBM/platform-services-python-sdk"
 use_latest_release = true
 prefix = "v"
 
+[python-json_repair]
+source = "github"
+github = "mangiucugna/json_repair"
+use_latest_tag = true
+prefix = "v"
+
 [python-liboqs]
 source = "github"
 github = "open-quantum-safe/liboqs-python"
 use_latest_release = true
+
+[python-magicattr]
+source = "github"
+github = "frmdstryr/magicattr"
+use_latest_tag = true
+prefix = "v"
 
 [python-marshmallow-polyfield]
 source = "pypi"
@@ -278,6 +316,12 @@ use_latest_release = true
 [python-qiskit-qasm3-import]
 source = "github"
 github = "Qiskit/qiskit-qasm3-import"
+use_latest_release = true
+prefix = "v"
+
+[python-quimb]
+source = "github"
+github = "jcmgray/quimb"
 use_latest_release = true
 prefix = "v"
 
