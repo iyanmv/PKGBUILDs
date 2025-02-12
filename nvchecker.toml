@@ -316,7 +316,7 @@ use_latest_release = true
 [python-qiskit-qasm3-import]
 source = "github"
 github = "Qiskit/qiskit-qasm3-import"
-use_latest_release = true
+use_latest_tag = true
 prefix = "v"
 
 [python-quimb]
