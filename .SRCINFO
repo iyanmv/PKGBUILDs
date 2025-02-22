@@ -1,0 +1,30 @@
+pkgbase = python-symengine-0.13
+	pkgdesc = Python wrappers for SymEngine
+	pkgver = 0.13.0
+	pkgrel = 1
+	url = https://github.com/symengine/symengine.py
+	arch = x86_64
+	license = MIT
+	makedepends = boost
+	makedepends = cereal
+	makedepends = cmake
+	makedepends = cython
+	makedepends = git
+	makedepends = llvm
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = gcc-libs
+	depends = glibc
+	depends = gmp
+	depends = gperftools
+	depends = libmpc
+	depends = mpfr
+	depends = python
+	depends = symengine-0.13
+	source = git+https://github.com/symengine/symengine.py#tag=v0.13.0
+	source = no-tcmalloc.patch
+	b2sums = 7ccdc0f797874626b309acaaca3e10b6cabe78ec90f9a84a81c3880d028209ee8b8ec5cf5a88288fabc2870b99e036e85b9bd50a8c5374e9c34f0fc7e92c9604
+	b2sums = f4e0ffdd1a6e887b7d780b10073bc3512c60e314f374e4a12764d8d7b90ec9763fb75c4487bc0aae5a5c13188d736663ea0ba8d7afa8481ee82043f74f6b4b1d
+
+pkgname = python-symengine-0.13
