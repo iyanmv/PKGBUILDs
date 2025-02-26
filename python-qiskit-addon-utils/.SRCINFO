@@ -1,0 +1,18 @@
+pkgbase = python-qiskit-addon-utils
+	pkgdesc = Utilities to support workflows leveraging Qiskit addons
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/Qiskit/qiskit-addon-utils/
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatchling
+	depends = python-numpy
+	depends = python-qiskit
+	depends = python-rustworkx
+	source = qiskit-addon-utils-0.1.0.tar.gz::https://github.com/Qiskit/qiskit-addon-utils/archive/refs/tags/0.1.0.tar.gz
+	b2sums = ccbef4a2d8fb51e68604025021a503f3e0f4e95c292bafdc41017f394e05097b9d05746734bab05dfe1ef101b6a8c446eeb7cf24dbcbb693d9bc51fe49cce2ab
+
+pkgname = python-qiskit-addon-utils
