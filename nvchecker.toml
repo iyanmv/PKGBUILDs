@@ -391,7 +391,8 @@ use_latest_release = true
 [slackdump]
 source = "github"
 github = "rusq/slackdump"
-use_latest_release = true
+use_max_tag = true
+exclude_regex = ".*-alpha.*"
 prefix = "v"
 
 [spectre-meltdown-checker]
