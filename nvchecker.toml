@@ -61,12 +61,6 @@ source = "github"
 github = "mvdevs/jk2mv"
 use_latest_release = true
 
-[jupyter-metakernel]
-source = "github"
-github = "Calysto/metakernel"
-use_latest_release = true
-prefix = "v"
-
 [jupyter-octave_kernel]
 source = "github"
 github = "Calysto/octave_kernel"
