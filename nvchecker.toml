@@ -10,6 +10,10 @@ use_max_tag = true
 include_regex = "^Release-.*"
 prefix = "Release-"
 
+[crackpkcs12]
+source = "cmd"
+cmd = '''curl -qs https://sourceforge.net/projects/crackpkcs12/files/ | grep '<span class="sub-label">' | sed -n 's/.*crackpkcs12-\([0-9.]\+\)\.tar\.gz.*/\1/p''''
+
 [drand]
 source = "github"
 github = "drand/drand"
