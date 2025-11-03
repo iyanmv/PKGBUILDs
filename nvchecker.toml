@@ -163,6 +163,12 @@ source = "github"
 github = "lmfit/asteval"
 use_latest_release = true
 
+[python-cirq]
+source = "github"
+github = "quantumlib/Cirq"
+use_latest_release = true
+prefix = "v"
+
 [python-comparxiv]
 source = "github"
 github = "temken/comparxiv"
@@ -192,7 +198,13 @@ pypi = "docplex"
 source = "github"
 github = "stanfordnlp/dspy"
 use_max_tag = true
-exclude_regex = ".*rc.*"
+exclude_regex = ".*rc.*|.*b.*"
+
+[python-duet]
+source = "github"
+github = "google/duet"
+use_latest_tag = true
+prefix = "v"
 
 [python-dwdweather2]
 source = "github"
@@ -285,6 +297,11 @@ source = "github"
 github = "Qiskit/qiskit-addon-cutting"
 use_latest_tag = true
 
+[python-qiskit-addon-mpf]
+source = "github"
+github = "Qiskit/qiskit-addon-mpf"
+use_latest_release = true
+
 [python-qiskit-addon-obp]
 source = "github"
 github = "Qiskit/qiskit-addon-obp"
@@ -371,6 +388,12 @@ use_latest_release = true
 source = "github"
 github = "WardBrian/stanio"
 use_latest_release = true
+prefix = "v"
+
+[python-typedunits]
+source = "github"
+github = "quantumlib/TypedUnits"
+use_latest_tag = true
 prefix = "v"
 
 [python-yfinance]
