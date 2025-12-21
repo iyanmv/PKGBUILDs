@@ -223,8 +223,10 @@ use_latest_release = true
 prefix = "v"
 
 [python-galois]
-source = "pypi"
-pypi = "galois"
+source = "github"
+github = "mhostetter/galois"
+use_latest_tag = true
+prefix = "v"
 
 [python-ibm-platform-services]
 source = "github"
@@ -373,6 +375,12 @@ github = "Qiskit/qiskit-qasm3-import"
 use_latest_tag = true
 prefix = "v"
 
+[python-quantities]
+source = "github"
+github = "python-quantities/python-quantities"
+use_latest_tag = true
+prefix = "v"
+
 [python-quimb]
 source = "github"
 github = "jcmgray/quimb"
@@ -447,11 +455,5 @@ use_latest_tag = true
 [wireshark-oqs]
 source = "gitlab"
 gitlab = "archlinux/packaging/packages/wireshark"
-host = "gitlab.archlinux.org"
-use_max_tag = true
-
-[wolfssl-liboqs]
-source = "gitlab"
-gitlab = "archlinux/packaging/packages/wolfssl"
 host = "gitlab.archlinux.org"
 use_max_tag = true
