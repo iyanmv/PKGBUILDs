@@ -222,6 +222,11 @@ github = "AloneLiberty/FlipperNestedRecovery"
 use_latest_release = true
 prefix = "v"
 
+[python-futurist]
+source = "github"
+github = "openstack/futurist"
+use_latest_tag = true
+
 [python-galois]
 source = "github"
 github = "mhostetter/galois"
