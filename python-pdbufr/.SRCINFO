@@ -1,0 +1,22 @@
+pkgbase = python-pdbufr
+	pkgdesc = High-level BUFR interface for ecCodes
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://github.com/earthobservations/wetterdienst
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	checkdepends = python-requests
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	depends = python-attrs
+	depends = python-eccodes
+	depends = python-pandas
+	depends = python-pint
+	source = pdbufr::git+https://github.com/ecmwf/pdbufr.git#tag=0.14.1
+	b2sums = 91b286d05a084baf92de5ff475b68fced442acc90ab30d041c7118b8af28408c0283a35989a5c2623fb5a52e2d7da62f15fdb69281dc1f9eebddd5e97867c0aa
+
+pkgname = python-pdbufr
