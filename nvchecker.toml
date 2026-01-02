@@ -211,10 +211,27 @@ source = "github"
 github = "panodata/dwdweather2"
 use_latest_tag = true
 
+[python-eccodes]
+source = "github"
+github = "ecmwf/eccodes-python"
+use_latest_tag = true
+
 [python-fastdtw]
 source = "github"
 github = "slaypni/fastdtw"
 use_latest_tag = true
+
+[python-fastexcel]
+source = "github"
+github = "ToucanToco/fastexcel"
+use_latest_tag = true
+prefix = "v"
+
+[python-findlibs]
+source = "github"
+github = "ecmwf/findlibs"
+use_latest_tag = true
+prefix = "v"
 
 [python-flippernested]
 source = "github"
@@ -280,10 +297,21 @@ use_latest_tag = true
 include_regex = "ast-py"
 prefix = "ast-py/v"
 
+[python-pdbufr]
+source = "github"
+github = "ecmwf/pdbufr"
+use_latest_tag = true
+
 [python-projectq]
 source = "github"
 github = "ProjectQ-Framework/ProjectQ"
 use_latest_release = true
+prefix = "v"
+
+[python-pybufrkit]
+source = "github"
+github = "ywangd/pybufrkit"
+use_latest_tag = true
 prefix = "v"
 
 [python-pydes]
