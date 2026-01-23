@@ -1,0 +1,21 @@
+pkgbase = python-twisterl
+	pkgdesc = PoC of a Reinforcement Learning framework
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/AI4quantum/twisteRL
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-maturin
+	depends = python-huggingface-hub
+	depends = python-loguru
+	depends = python-numpy
+	depends = python-pytorch
+	depends = python-safetensors
+	depends = tensorboard
+	source = twisterl::git+https://github.com/AI4quantum/twisterl#tag=0.5.0
+	b2sums = 0e09fb9d8de144a620127c5b2d6a20213b9d15353f967ba7be60c90dff54ad942a77726089537739f6b56bbaa71fd4dab851ec1b2f6f0e8681452b155f919a0e
+
+pkgname = python-twisterl
