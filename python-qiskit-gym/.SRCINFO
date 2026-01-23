@@ -1,0 +1,18 @@
+pkgbase = python-qiskit-gym
+	pkgdesc = A collection of quantum information science problems formulated as reinforcement learning environments
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/AI4quantum/qiskit-gym
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-maturin
+	depends = python-gymnasium
+	depends = python-qiskit
+	depends = python-twisterl
+	source = qiskit-gym::git+https://github.com/AI4quantum/qiskit-gym#tag=0.3.0
+	b2sums = a7631209753791dfadb549c6f6b13423b89c74ad2abb1e8eae8ba61960d87a066c1bed2b52bbfecdce45b77d04cd27ded0f4e23df58f9625fafe3755bca23870
+
+pkgname = python-qiskit-gym
