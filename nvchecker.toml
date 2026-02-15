@@ -277,12 +277,6 @@ source = "github"
 github = "open-quantum-safe/liboqs-python"
 use_latest_release = true
 
-[python-magicattr]
-source = "github"
-github = "frmdstryr/magicattr"
-use_latest_tag = true
-prefix = "v"
-
 [python-marshmallow-polyfield]
 source = "pypi"
 pypi = "marshmallow-polyfield"
@@ -388,6 +382,11 @@ source = "github"
 github = "qiskit-community/qiskit-finance"
 use_latest_release = true
 
+[python-qiskit-gym]
+source = "github"
+github = "AI4quantum/qiskit-gym"
+use_latest_tag = true
+
 [python-qiskit-ibm-experiment]
 source = "github"
 github = "qiskit-community/qiskit-ibm-experiment"
@@ -453,6 +452,11 @@ github = "quantumlib/TypedUnits"
 use_latest_tag = true
 prefix = "v"
 
+[python-twisterl]
+source = "github"
+github = "AI4quantum/twisteRL"
+use_latest_tag = true
+
 [python-yfinance]
 source = "github"
 github = "ranaroussi/yfinance"
@@ -506,3 +510,9 @@ source = "gitlab"
 gitlab = "archlinux/packaging/packages/wireshark"
 host = "gitlab.archlinux.org"
 use_max_tag = true
+
+[zgrab2]
+source = "github"
+github = "zmap/zgrab2"
+use_latest_tag = true
+prefix = "v"
