@@ -1,0 +1,15 @@
+pkgbase = zgrab2
+	pkgdesc = Fast Application Layer Scanner
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/zmap/zgrab2
+	arch = x86_64
+	license = Apache-2.0
+	makedepends = git
+	makedepends = go
+	depends = glibc
+	options = !lto
+	source = zgrab2::git+https://github.com/zmap/zgrab2#tag=v1.0.0
+	b2sums = e1f158eed9cf0199396c47257d8a99d6407f2afc8690cc62a307236e5b1e9bf759cdd4ec16a16f056ec9908cd0b6b4b039a720df09046ee429e59e817eaf5123
+
+pkgname = zgrab2
