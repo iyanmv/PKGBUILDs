@@ -1,0 +1,25 @@
+pkgbase = python-samplomatic
+	pkgdesc = A library that helps you sample randomizations of your quantum circuits
+	pkgver = 0.17.0
+	pkgrel = 1
+	url = https://github.com/Qiskit/samplomatic
+	arch = any
+	license = Apache-2.0
+	checkdepends = python-pytest
+	checkdepends = python-qiskit-aer
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools
+	depends = python-numpy
+	depends = python-orjson
+	depends = python-pybase64
+	depends = python-qiskit
+	depends = python-rustworkx
+	optdepends = python-plotly: visualization
+	optdepends = python-matplotlib: visualization
+	optdepends = python-pylatexenc: LaTeX
+	source = samplomatic::git+https://github.com/Qiskit/samplomatic.git#tag=0.17.0
+	b2sums = 14485ba66578e74f20ffaa73c3bab14a93f99ad7212c2d89ce30df05258d08c7449b515b529c8aeafe332ab2a8ab4486b03ded48c962579f3a0a85d74572be65
+
+pkgname = python-samplomatic
