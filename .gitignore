@@ -1,0 +1,3 @@
+scipy-doctest
+*.log
+*.tar.*
