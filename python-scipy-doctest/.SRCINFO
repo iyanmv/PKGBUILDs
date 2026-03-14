@@ -1,0 +1,19 @@
+pkgbase = python-scipy-doctest
+	pkgdesc = Floating-point aware doctesting
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://github.com/scipy/scipy_doctest
+	arch = any
+	license = BSD-3-Clause
+	checkdepends = python-matplotlib
+	checkdepends = python-scipy
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-flit-core
+	makedepends = python-installer
+	depends = python-numpy
+	depends = python-pytest
+	source = scipy-doctest::git+https://github.com/scipy/scipy_doctest.git#tag=v2.2.0
+	b2sums = 24cc9c9fcfcdc9107a72700ecb80c13745de62f11feed2370f5e1d32e35ddd15d34e7f0002e699e36ec19b2d9ad5c01e6b8acfb909d18eb56ab207748934c7ff
+
+pkgname = python-scipy-doctest
