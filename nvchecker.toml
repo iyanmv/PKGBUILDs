@@ -246,7 +246,8 @@ prefix = "v"
 [python-futurist]
 source = "github"
 github = "openstack/futurist"
-use_latest_tag = true
+use_max_tag = true
+exclude_regex = "eol|eom"
 
 [python-galois]
 source = "github"
@@ -439,6 +440,17 @@ prefix = "v"
 source = "github"
 github = "Qiskit/rustworkx"
 use_latest_release = true
+
+[python-samplomatic]
+source = "github"
+github = "Qiskit/samplomatic"
+use_latest_release = true
+
+[python-scipy-doctest]
+source = "github"
+github = "scipy/scipy_doctest"
+use_latest_tag = true
+prefix = "v"
 
 [python-stanio]
 source = "github"
