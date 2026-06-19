@@ -1,0 +1,23 @@
+# Colored makepkg-like functions
+msg_blue() {
+    printf "${blue}==>${bold} $1${all_off}\n"
+}
+
+note() {
+    printf "${blue}==>${yellow} NOTE$2:${bold} $1${all_off}\n"
+}
+
+all_off="$(tput sgr0)"
+bold="${all_off}$(tput bold)"
+blue="${bold}$(tput setaf 4)"
+yellow="${bold}$(tput setaf 3)"
+
+post_install() {
+    note "If you do not need to connect to an ownCloud Server, please use owncloud-client from [extra]"
+    note "If you are downgrading from the package in [extra] you will need to move your old configuration file."
+    note "See more details here: https://github.com/orgs/owncloud/discussions/3"
+}
+
+post_upgrade() {    
+    post_install
+}
