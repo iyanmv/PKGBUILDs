@@ -133,6 +133,13 @@ github = "open-quantum-safe/oqs-provider"
 prefix = "v"
 use_latest_release = true
 
+[owncloud-client-6]
+source = "github"
+github = "owncloud/client"
+prefix = "v"
+use_latest_tag = true
+query = "v6.*"
+
 [pdf-compress]
 source = "cmd"
 cmd = "curl -s https://www.timedicer.co.uk/programs/help/pdf-compress.sh.php | grep '<h1>' | cut -d ' ' -f 2 | cut -c2-"
@@ -198,12 +205,6 @@ pypi = "dlx"
 source = "pypi"
 pypi = "docplex"
 
-[python-dspy]
-source = "github"
-github = "stanfordnlp/dspy"
-use_max_tag = true
-exclude_regex = ".*rc.*|.*b.*"
-
 [python-duet]
 source = "github"
 github = "google/duet"
@@ -260,6 +261,11 @@ source = "github"
 github = "IBM/platform-services-python-sdk"
 use_latest_release = true
 prefix = "v"
+
+[python-ibm-quantum-schemas]
+source = "github"
+github = "Qiskit/ibm-quantum-schemas"
+use_latest_release = true
 
 [python-influxdb-client]
 source = "github"
