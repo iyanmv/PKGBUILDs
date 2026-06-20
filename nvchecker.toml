@@ -134,11 +134,10 @@ prefix = "v"
 use_latest_release = true
 
 [owncloud-client-6]
-source = "github"
-github = "owncloud/client"
-prefix = "v"
-use_latest_tag = true
-query = "v6.*"
+source = "regex"
+url = "https://download.owncloud.com/desktop/ownCloud/stable/"
+regex = '\./([\d.]+)/'
+include_regex = '6.*'
 
 [pdf-compress]
 source = "cmd"
