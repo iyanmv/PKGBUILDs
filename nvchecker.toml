@@ -318,6 +318,11 @@ github = "ProjectQ-Framework/ProjectQ"
 use_latest_release = true
 prefix = "v"
 
+[python-pyasn1-alt-modules]
+source = "github"
+github = "russhousley/pyasn1-alt-modules"
+use_latest_release = true
+
 [python-pybufrkit]
 source = "github"
 github = "ywangd/pybufrkit"
