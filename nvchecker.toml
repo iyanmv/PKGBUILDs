@@ -418,6 +418,11 @@ source = "github"
 github = "qiskit-community/qiskit-machine-learning"
 use_latest_release = true
 
+[python-qiskit-mitigation]
+source = "github"
+github = "Qiskit/qiskit-mitigation"
+use_latest_tag = true
+
 [python-qiskit-nature]
 source = "github"
 github = "qiskit-community/qiskit-nature"
